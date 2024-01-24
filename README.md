@@ -17,3 +17,10 @@ next-contentlayer
 
 https://nextjs.org/docs/app/building-your-application/configuring/mdx
 https://nextjs.org/learn-pages-router/basics/data-fetching/blog-data
+
+https://www.gptsapp.io/s?k=Content+Creation
+https://exploringjs.com/index.html
+https://github.com/PromtEngineer/localGPT
+https://web3.career/learn-web3
+
+https://github.com/jordon0329/Next.js-Metamask-Vault-Contract
