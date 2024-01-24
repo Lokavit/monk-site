@@ -5,6 +5,8 @@ tags: ['code']
 draft: true
 ---
 
+- https://docs.web3js.org/#initialize-web3-with-a-provider
+
 ## web3-eth-abi
 - ABI：软件包简化了对日志和参数的解码、对函数调用和签名的编码以及对类型的推断，从而实现高效的以太坊合约交互。
 
