@@ -6,6 +6,10 @@ mtime: 2024/1/23 18:28:31
 
 # 
 
+## mdx code snippet
+- https://docusaurus.io/docs/next
+
+
 - smart connent
 
 - blog
