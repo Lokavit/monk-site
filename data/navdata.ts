@@ -1,8 +1,8 @@
 const navdata = [
-  { href: '/', title: 'Home' },
-  { href: '/blog', title: 'Blog' },
+  { href: '/code', title: 'Code' },
   { href: '/novel', title: 'Novel' },
-  { href: '/projects', title: 'Projects' },
+  { href: '/life', title: 'Life' },
+  { href: '/project', title: 'Project' },
   { href: '/archive', title: 'Archive' },
   { href: '/about', title: 'About' },
 ]

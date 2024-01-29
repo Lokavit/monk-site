@@ -9,12 +9,22 @@ mtime: 2024/1/23 18:28:31
 ## react-icons
 - https://react-icons.github.io/react-icons/
 
+- 文章分类:使用tags或者categories
+
+```
+标题
+分类 作者 日期 字数 阅读时间 阅读量
+
+上一章 下一章
+```
+
+
 ## mdx code snippet
 
 
 - https://docusaurus.io/docs/next
 
-
+- reward
 
 
 - smart connent
@@ -37,3 +47,5 @@ https://web3.career/learn-web3
 https://github.com/jordon0329/Next.js-Metamask-Vault-Contract
 
 https://github.com/byoungd/English-level-up-tips
+
+https://wiki.eryajf.net/
