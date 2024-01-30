@@ -20,13 +20,6 @@ Would you like to customize the default import alias (@/*)?  [Yes]
 
 
 ```
-https://github.com/hta218/leohuynh.dev https://www.leohuynh.dev/ nextjs13 主页
-https://github.com/Karhdo/karhdo.dev https://karhdo.dev/ nextjs13
-
-https://github.com/jktrn/enscribe.dev https://enscribe.dev/  nextjs13
-
-https://github.com/acsoto/soto-blog-nextjs https://www.zzhgo.com/ nextjs14 归档
-
 https://github.com/rabbyalone/myblog https://blog.rabbyhasan.com.bd/ nextjs13 特效
 https://github.com/zS1m/nextjs-contrails https://www.contrails.space/ nextjs13
 ```
