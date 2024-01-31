@@ -1,5 +1,5 @@
-import siteMetadata from "@/data/siteMetadata";
-import navdata from '@/data/navdata';
+import siteMetadata from "../data/siteMetadata";
+import navdata from '../data/navdata';
 import Link from "./Link";
 import { ImGithub } from "react-icons/im";
 

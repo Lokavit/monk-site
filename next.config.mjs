@@ -11,6 +11,8 @@ Copyright © 1911 - 2024 Monk
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  output: "export",
+  basePath: "/monk-site",
   pageExtensions: ['js', 'jsx', 'md', 'mdx', 'ts', 'tsx'],
 };
 

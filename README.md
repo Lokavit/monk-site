@@ -4,10 +4,45 @@ birthtime: 2024/1/23 18:28:31
 mtime: 2024/1/23 18:28:31
 ---
 
-# 
+# Multi-platform deploy
+## Github Pages
+- 移除 `.gitignore`文件中对 `/out/`的过滤
+- 在`next.config.mjs`中添加：
+```js
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+  output: "export", // 导出
+  basePath: "/monk-site", // 设置为仓库名
+  pageExtensions: ['js', 'jsx', 'md', 'mdx', 'ts', 'tsx'],
+};
 
-## react-icons
-- https://react-icons.github.io/react-icons/
+export default nextConfig;
+```
+- 在 `package.json`中添加命令
+```json
+"scripts": {
+    // some cmd ......
+    "deploy": "next build && touch out/.nojekyll && git add out/ && git commit -m \"Deploy\" && git subtree push --prefix out origin gh-pages"
+}
+```
+- 执行 `npm run deploy`,将会自动添加gh-pages分支，修改项目，再次提交。
+- 可访问`https://lokavit.github.io/monk-site/`
+
+
+```bash
+npm install react-icons # 图标 速查:https://react-icons.github.io/react-icons/
+```
+
+
+
+
+## 项目结构
+- _posts:存放所有文字内容。不应放在代码内。
+- app:页面
+- components:组件
+- data:数据 object/JSON
+- lib/utils/type/interfaces/
+
 
 ## HOME
 - 文字渐变

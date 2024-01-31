@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
-import siteMetadata from "@/data/siteMetadata";
+import siteMetadata from "../data/siteMetadata";
 import "./globals.css";
-import Header from "@/components/Header";
-import Footer from "@/components/Footer";
+import Header from "../components/Header";
+import Footer from "../components/Footer";
 
 export const metadata: Metadata = {
   title: siteMetadata.title,
