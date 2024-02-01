@@ -33,7 +33,13 @@ export default nextConfig;
 npm install react-icons # 图标 速查:https://react-icons.github.io/react-icons/
 ```
 
+mibei77.com
+linux.do
+Stick Fight: The Game
 
+https://stackoverflow.com/questions/73952935/how-to-import-a-markdown-file-in-nextjs
+
+https://gist.github.com/vitorkoch/d24eac6765c425e56dcae6baee2867f9
 
 
 ## 项目结构
